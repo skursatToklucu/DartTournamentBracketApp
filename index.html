@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dart Tournament Bracket Generator</title>
+    <style>
+      @media print {
+        body * {
+          visibility: hidden;
+        }
+        #root main * {
+          visibility: visible;
+        }
+        #root main {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+        }
+        header, button, aside, .fixed {
+          display: none !important;
+        }
+      }
+      .animate-fade-in-out {
+        animation: fadeInOut 3s ease-in-out;
+      }
+      @keyframes fadeInOut {
+        0% { opacity: 0; }
+        15% { opacity: 1; }
+        85% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+    </style>
+    <script type="module" crossorigin src="/DartTournamentBracketApp/assets/index-BWo8iIkS.js"></script>
+    <link rel="stylesheet" crossorigin href="/DartTournamentBracketApp/assets/index-KSGAjBMl.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
